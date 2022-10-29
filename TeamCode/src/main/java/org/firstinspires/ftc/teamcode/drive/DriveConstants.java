@@ -79,7 +79,7 @@ public class DriveConstants {
      * Just make sure that your bot can actually reach this maximum velocity. Path following will be detrimentally
      * affected if it is aiming for a velocity not actually possible.
      *
-     * The maximum acceleration is somewhtat arbitrary and it is recommended that you tweak this yourself based on
+     * The maximum acceleration is somewhat arbitrary and it is recommended that you tweak this yourself based on
      * actual testing. Just set it at a reasonable value and keep increasing until your path following starts
      * to degrade. As of now, it simply mirrors the velocity, resulting in 76.22057483314033 in/s/s
      *
