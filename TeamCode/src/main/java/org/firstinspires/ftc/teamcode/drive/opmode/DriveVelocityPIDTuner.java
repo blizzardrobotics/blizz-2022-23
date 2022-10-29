@@ -63,6 +63,8 @@ public class DriveVelocityPIDTuner extends LinearOpMode {
         return MotionProfileGenerator.generateSimpleMotionProfile(start, goal, MAX_VEL, MAX_ACCEL);
     }
 
+//    private final FtcDashboard dashboard = FtcDashboard.getInstance();
+
     @Override
     public void runOpMode() {
         if (!RUN_USING_ENCODER) {
